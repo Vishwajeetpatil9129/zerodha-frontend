@@ -36,7 +36,7 @@ const Login = () => {
         // FIX 3: Redirect to home/dashboard without hardcoding "localhost"
         // Since your dashboard is likely on the main frontend, you can redirect to root "/" 
         // or specifically to a dashboard route if you have one setup in main.js
-        window.location.href = "https://zerodha-frontend.vercel.app/"; 
+        window.location.href = "https://zerodha-dashboard-wheat.vercel.app"; 
         // Note: Once you deploy frontend, you'll put your Vercel link here or just use "/"
       } else {
         alert(message);
